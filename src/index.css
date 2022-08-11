@@ -24,3 +24,30 @@ a.nav-link:hover {
 a.nav-link.active {
   color: green !important;
 }
+
+div.container {
+  /* height: 100vh; */
+  display: grid;
+  grid-template-areas:
+    "aside header header"
+    "aside main main"
+    "aside main main";
+}
+
+header,
+main,
+aside {
+  background-color: green;
+  color: white;
+  border: 1px solid white;
+}
+
+header {
+  grid-area: header;
+}
+main {
+  grid-area: main;
+}
+aside {
+  grid-area: aside;
+}
