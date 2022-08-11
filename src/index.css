@@ -16,3 +16,11 @@ button.btn-close {
   display: block;
   margin-left: 20rem;
 }
+
+a.nav-link:hover {
+  color: green;
+}
+
+a.nav-link.active {
+  color: green !important;
+}
