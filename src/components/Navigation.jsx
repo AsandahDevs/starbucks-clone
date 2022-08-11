@@ -1,0 +1,42 @@
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import Offcanvas from "react-bootstrap/Offcanvas";
+import { NavLink } from "react-router-dom";
+
+const Navigation = () => {
+  return (
+    <>
+      <Navbar bg="light" expand="md" className="mb-3">
+        <Container>
+          <Navbar.Brand as={NavLink} to="/">
+            Starbucks logo
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls={"offcanvasNavbar-expand-md"} />
+          <Navbar.Offcanvas
+            id={"offcanvasNavbar-expand-md"}
+            aria-labelledby={"offcanvasNavbarLabel-expand-md"}
+            placement="end"
+          >
+            <Offcanvas.Header closeButton></Offcanvas.Header>
+            <Offcanvas.Body>
+              <Nav className="justify-content-start flex-grow-1 pe-3">
+                <Nav.Link as={NavLink} to="/coffees">
+                  Our Coffees
+                </Nav.Link>
+                <Nav.Link as={NavLink} to="/delivers">
+                  Delivers
+                </Nav.Link>
+                <Nav.Link as={NavLink} to="/rewards">
+                  Rewards
+                </Nav.Link>
+              </Nav>
+            </Offcanvas.Body>
+          </Navbar.Offcanvas>
+        </Container>
+      </Navbar>
+    </>
+  );
+};
+
+export default Navigation;
