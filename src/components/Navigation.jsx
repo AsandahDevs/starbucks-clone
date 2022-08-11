@@ -10,7 +10,11 @@ const Navigation = () => {
       <Navbar bg="light" expand="md" className="mb-3">
         <Container>
           <Navbar.Brand as={NavLink} to="/">
-            Starbucks logo
+            <img
+              src="images/starbucks_logo.png"
+              alt="starbucks_logo"
+              style={{ height: "60px", borderRadius: "50%" }}
+            />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={"offcanvasNavbar-expand-md"} />
           <Navbar.Offcanvas
