@@ -29,12 +29,11 @@ div.container {
   /* height: 100vh; */
   display: grid;
   grid-template-areas:
-    "aside header header"
+    "aside main main"
     "aside main main"
     "aside main main";
 }
 
-header,
 main,
 aside {
   background-color: green;
@@ -42,9 +41,6 @@ aside {
   border: 1px solid white;
 }
 
-header {
-  grid-area: header;
-}
 main {
   grid-area: main;
 }
