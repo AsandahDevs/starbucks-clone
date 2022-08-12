@@ -3,6 +3,8 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { GeoAltFill } from "react-bootstrap-icons";
 
 const Navigation = () => {
   return (
@@ -33,6 +35,9 @@ const Navigation = () => {
                 </Nav.Link>
                 <Nav.Link as={NavLink} to="/rewards">
                   Rewards
+                </Nav.Link>
+                <Nav.Link as={Link} to="#" className="ms-auto">
+                  <GeoAltFill /> Find a store
                 </Nav.Link>
               </Nav>
             </Offcanvas.Body>
