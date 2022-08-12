@@ -2,6 +2,9 @@ import Button from "react-bootstrap/esm/Button";
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/esm/Container";
 import Footer from "../components/Footer";
+import Row from "react-bootstrap/esm/Row";
+import Col from "react-bootstrap/esm/Col";
+import Cards from "../components/Cards";
 
 const Homepage = () => {
   return (
@@ -15,7 +18,6 @@ const Homepage = () => {
               style={{ width: "100%" }}
             />
           </section>
-
           <section style={{ margin: "2rem 2rem" }}>
             <h1 style={{ fontSize: "30px" }}>
               Uplift the Everyday with Starbucks
@@ -35,14 +37,89 @@ const Homepage = () => {
               size="sm"
               style={{
                 fontWeight: "bold",
-                backgroundColor: "transparent",
                 color: "green",
               }}
             >
               Order Now
             </Button>
           </section>
+          <section style={{ margin: "2rem 2rem" }}>
+            <h2 style={{ fontSize: "15px", fontWeight: "bold" }}>
+              YOUR DAILY ROUTINE, THE STARBUCKS WAY
+            </h2>
+            <figure className="grid-layout">
+              <img
+                src={"images/arial_view_of_starbucks_servings.jfif"}
+                alt="an arial_view_of_starbucks_servings"
+                style={{ height: "250px" }}
+              />
+              <figcaption>
+                <h3 style={{ fontSize: "20px", fontWeight: "bold" }}>
+                  To Go With Your Coffee
+                </h3>
+                <p style={{ color: "grey", fontSize: "13px" }}>
+                  We're fast becoming known for fabulous food & beverage pairing
+                  options, developed by expert chefs, with both savoury and
+                  sweet menu items.
+                </p>
+                <p style={{ color: "grey", fontSize: "13px" }}>
+                  Pairings include breakfast or lunchtime options of a French
+                  Toast Brioche with Chicken Schnitzel, finished with mayonnaise
+                  and a hint of mustard, paired with a Cold Brew.
+                </p>
 
+                <Button
+                  variant="outline-success"
+                  size="sm"
+                  style={{
+                    fontWeight: "bold",
+                    color: "green",
+                  }}
+                >
+                  Order Now
+                </Button>
+              </figcaption>
+            </figure>
+          </section>
+          <section style={{ margin: "2rem 2rem" }}>
+            <Row className="g-4">
+              <Col md={6}>
+                <Cards
+                  src={
+                    "/images/the_original_starbucks_store_in_pike_place_market_in_seattle.jpg"
+                  }
+                  alt={
+                    "The original starbucks store in pike place market in seattle"
+                  }
+                  imgStyle={{ height: "150px" }}
+                  title={"About us"}
+                  text={"Find out more about our company and heritage."}
+                  textStyle={{ color: "grey" }}
+                  btnText={"Find out more"}
+                  btnStyle={{
+                    fontWeight: "bold",
+                    color: "green",
+                  }}
+                />
+              </Col>
+              <Col md={6}>
+                <Cards
+                  src={"/images/TEDDY_STARBUCKS-STORIES.png"}
+                  alt={"Two man sharing a celebration"}
+                  imgStyle={{ height: "150px" }}
+                  title={"Starbucks stories"}
+                  text={"Keep up to date with our latest stories and news."}
+                  textStyle={{ color: "grey" }}
+                  btnText={"Find out more"}
+                  btnStyle={{
+                    fontWeight: "bold",
+                    color: "green",
+                  }}
+                />
+              </Col>
+            </Row>
+          </section>
+          <hr />
           <section>
             <Footer />
           </section>
@@ -86,9 +163,9 @@ const Homepage = () => {
               size="sm"
               style={{
                 display: "block",
-                margin: "auto",
+                marginLeft: "18rem",
                 marginTop: "2rem",
-                marginBottom: "2rem",
+                marginBottom: "3rem",
                 backgroundColor: "transparent",
                 color: "white",
                 borderColor: "white",
