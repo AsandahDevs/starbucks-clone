@@ -3,15 +3,19 @@ import Card from "react-bootstrap/Card";
 
 const Cards = (props) => {
   return (
-    <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" />
+    <Card>
+      <Card.Img
+        variant="top"
+        src={props.src}
+        alt={props.alt}
+        style={props.imgStyle}
+      />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Card.Title>{props.title}</Card.Title>
+        <Card.Text style={props.textStyle}>{props.text}</Card.Text>
+        <Button variant="outline-success" style={props.btnStyle}>
+          {props.btnText}
+        </Button>
       </Card.Body>
     </Card>
   );
