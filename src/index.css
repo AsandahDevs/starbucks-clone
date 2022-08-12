@@ -87,3 +87,18 @@ svg {
       "main main main";
   }
 }
+figure.grid-layout {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 35px;
+}
+
+@media (max-width: 576px) {
+  figure.grid-layout {
+    display: flex;
+    flex-direction: column;
+  }
+}
+button.btn.btn-outline-success:hover {
+  background-color: rgb(182, 201, 182);
+}
