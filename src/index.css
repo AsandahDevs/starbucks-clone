@@ -78,7 +78,7 @@ svg {
   color: white;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   div.container {
     display: grid;
     grid-template-areas:
@@ -93,7 +93,7 @@ figure.grid-layout {
   column-gap: 35px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   figure.grid-layout {
     display: flex;
     flex-direction: column;
