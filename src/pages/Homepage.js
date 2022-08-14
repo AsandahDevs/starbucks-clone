@@ -124,9 +124,9 @@ const Homepage = () => {
             <Footer />
           </section>
         </main>
-        <aside className="backgroundImage1">
+        <aside className="backgroundImageForHomePage">
           <div
-            className="background-text"
+            className="backgroundTextForHomePage"
             style={{ fontSize: "2.5rem", fontWeight: "bold" }}
           >
             eBucks |{" "}
