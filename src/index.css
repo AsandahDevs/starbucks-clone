@@ -67,15 +67,20 @@ svg {
   margin-left: 15px;
 }
 
-.backgroundImage1 {
+.backgroundImageForHomePage {
   background-image: url(/public/images/laughing_girl.jpg);
   background-size: cover;
 }
-.background-text {
+.backgroundTextForHomePage {
   display: block;
   margin-left: 15rem;
   margin-top: 8rem;
   color: white;
+}
+
+.backgroundImageForCoffeePage {
+  background-image: url(/public/images/A_coffee_machine_pouring_coffee_into_cups.jfif);
+  background-size: cover;
 }
 
 @media (max-width: 768px) {
