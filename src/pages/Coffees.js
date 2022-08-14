@@ -84,7 +84,18 @@ const Coffees = () => {
             </Button>
           </section>
         </main>
-        <aside className="backgroundImageForCoffeePage"></aside>
+        <aside className="backgroundImageForCoffeePage">
+          <p
+            className="backgroundTextForHomePage"
+            style={{
+              fontSize: "2.5rem",
+              fontWeight: "bold",
+              color: "transparent",
+            }}
+          >
+            Lorem text with a bunch of gibberish attached to it.
+          </p>
+        </aside>
       </Container>
     </>
   );
