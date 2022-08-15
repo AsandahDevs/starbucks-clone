@@ -107,3 +107,16 @@ figure.grid-layout {
 button.btn.btn-outline-success:hover {
   background-color: rgb(182, 201, 182);
 }
+
+div.coffee-grid-layout {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 35px;
+}
+
+@media only screen and (max-width: 768px) {
+  div.coffee-grid-layout {
+    display: flex;
+    flex-direction: column;
+  }
+}
