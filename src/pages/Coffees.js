@@ -85,6 +85,110 @@ const Coffees = () => {
             </Button>
           </section>
           <section style={{ margin: "2rem 2rem" }}>
+            <div className="coffee-grid-layout">
+              <figure>
+                <img
+                  src={"/images/pike_place_coffee.jfif"}
+                  alt="pike_place_coffee"
+                />
+                <figcaption style={{ fontWeight: "bold" }}>
+                  Pike Place <br />
+                  <Button
+                    variant="outline-success"
+                    size="sm"
+                    style={{
+                      fontWeight: "bold",
+                      color: "green",
+                      marginTop: "10px",
+                    }}
+                  >
+                    Medium Roasts
+                  </Button>
+                </figcaption>
+              </figure>
+              <figure>
+                <img
+                  src={"/images/house_blend_coffee.jfif"}
+                  alt="house_blend_coffee "
+                />
+                <figcaption style={{ fontWeight: "bold" }}>
+                  House Blend <br />
+                  <Button
+                    variant="outline-success"
+                    size="sm"
+                    style={{
+                      fontWeight: "bold",
+                      color: "green",
+                      marginTop: "10px",
+                    }}
+                  >
+                    Medium Roasts
+                  </Button>
+                </figcaption>
+              </figure>
+              <figure>
+                <img
+                  src={"/images/cafe_verona_coffee.jfif"}
+                  alt="cafe_verona_coffee "
+                />
+                <figcaption style={{ fontWeight: "bold" }}>
+                  Cafe Verona <br />
+                  <Button
+                    variant="outline-success"
+                    size="sm"
+                    style={{
+                      fontWeight: "bold",
+                      color: "green",
+                      marginTop: "10px",
+                    }}
+                  >
+                    Dark Roasts
+                  </Button>
+                </figcaption>
+              </figure>
+              <figure>
+                <img
+                  src={"/images/expresso_roast.jfif"}
+                  alt="expresso_roast_coffee "
+                />
+                <figcaption style={{ fontWeight: "bold" }}>
+                  Expresso Roast <br />
+                  <Button
+                    variant="outline-success"
+                    size="sm"
+                    style={{
+                      fontWeight: "bold",
+                      color: "green",
+                      marginTop: "10px",
+                    }}
+                  >
+                    Dark Roasts
+                  </Button>
+                </figcaption>
+              </figure>
+              <figure>
+                <img
+                  src={"/images/decaf_expresso-roast.jfif"}
+                  alt="decaf_expresso_coffee "
+                />
+                <figcaption style={{ fontWeight: "bold" }}>
+                  Decaf Expresso Roasts <br />
+                  <Button
+                    variant="outline-success"
+                    size="sm"
+                    style={{
+                      fontWeight: "bold",
+                      color: "green",
+                      marginTop: "10px",
+                    }}
+                  >
+                    Dark Roasts
+                  </Button>
+                </figcaption>
+              </figure>
+            </div>
+          </section>
+          <section style={{ margin: "2rem 2rem" }}>
             <Footer />
           </section>
         </main>
