@@ -69,7 +69,7 @@ svg {
 
 .backgroundImageForHomePage {
   background-image: url(/public/images/laughing_girl.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .backgroundTextForHomePage {
   display: block;
@@ -80,7 +80,7 @@ svg {
 
 .backgroundImageForCoffeePage {
   background-image: url(/public/images/A_coffee_machine_pouring_coffee_into_cups.jfif);
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 @media (max-width: 768px) {
