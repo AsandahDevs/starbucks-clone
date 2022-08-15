@@ -189,6 +189,91 @@ const Coffees = () => {
             </div>
           </section>
           <section style={{ margin: "2rem 2rem" }}>
+            <h2>How to Brew</h2>
+            <p>
+              You might be surprised at how the different brewing methods we use
+              at Starbucks can enhance characteristics in your coffee. Let our
+              expertise help you unlock its full potential – for the perfect cup
+              every time.
+            </p>
+            <h3 style={{ fontSize: "15px", marginLeft: "5.4rem" }}>
+              Coffee Press
+            </h3>
+            <div className="brewingInstructions-grid-layout">
+              <img
+                src={"/images/coffee_press_icon.jfif"}
+                alt="coffee presser"
+                style={{ width: 50 }}
+              />
+              <p style={{ color: "grey", fontSize: "15px" }}>
+                Brewing with a coffee press retains the precious natural oils
+                that paper filters absorb and extracts the coffee’s full flavour
+                while giving it a consistency that’s thick and rich. <br />
+                <br />
+                <div style={{ fontWeight: "bold", color: "black" }}>
+                  1. Grind and measure
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  Remember, coffee is like produce. Buy it often in small
+                  quantities to enjoy it at the peak of freshness. TIP:
+                  Remember, coffee is like produce. Buy it often in small
+                  quantities to enjoy it at the peak of freshness.
+                </div>
+                <br />
+                <br />
+                <div
+                  style={{
+                    fontWeight: "bold",
+                    color: "black",
+                    marginTop: "-25px",
+                  }}
+                >
+                  2.Add hot water
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  To give your coffee the best possible flavour, use filtered or
+                  bottled water. TIP: To give your coffee the best possible
+                  flavour, use filtered or bottled water.
+                </div>
+                <br />
+                <br />
+                <div
+                  style={{
+                    fontWeight: "bold",
+                    color: "black",
+                    marginTop: "-25px",
+                  }}
+                >
+                  3.Place plunger and brew
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  Put the plunger back on the press without pushing it down and
+                  let the coffee brew for 4 minutes.
+                </div>
+                <br />
+                <br />
+                <div
+                  style={{
+                    fontWeight: "bold",
+                    color: "black",
+                    marginTop: "-25px",
+                  }}
+                >
+                  4.Press and pour
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  Gently push down the plunger until it reaches the bottom of
+                  the press and enjoy.
+                </div>
+              </p>
+            </div>
+            <hr />
+          </section>
+          <section style={{ margin: "2rem 2rem" }}>
             <Footer />
           </section>
         </main>
