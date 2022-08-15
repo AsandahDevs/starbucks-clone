@@ -272,6 +272,279 @@ const Coffees = () => {
               </p>
             </div>
             <hr />
+            <h3 style={{ fontSize: "15px", marginLeft: "5.4rem" }}>
+              Pour-Over
+            </h3>
+            <div className="brewingInstructions-grid-layout">
+              <img
+                src={"/images/pour_over_coffee_maker.webp"}
+                alt="pour over coffee maker"
+                style={{ width: 50 }}
+              />
+              <p style={{ color: "grey", fontSize: "15px" }}>
+                Pour-over is a beautifully simple and accessible way to brew a
+                single cup of coffee with clean, fully developed flavour and
+                body. <br />
+                <br />
+                <div style={{ fontWeight: "bold", color: "black" }}>
+                  1. Measure and boil
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  Measure as much water as you’re going to use to brew, plus a
+                  little extra for rinsing the filter, and bring it to a boil.
+                </div>
+                <br />
+                <br />
+                <div
+                  style={{
+                    fontWeight: "bold",
+                    color: "black",
+                    marginTop: "-25px",
+                  }}
+                >
+                  2.Pre-moisten filter
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  Briefly rinse the paper filter with hot water and discard the
+                  rinse water. This will give your coffee the purest flavour
+                  possible.
+                </div>
+                <br />
+                <br />
+                <div
+                  style={{
+                    fontWeight: "bold",
+                    color: "black",
+                    marginTop: "-25px",
+                  }}
+                >
+                  3.Measure and grind
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  Next, measure your coffee. For pour-over, use coffee ground
+                  for a paper cone. It’s a relatively fine grind that looks like
+                  granulated sugar. Measure 2 tablespoons of coffee per 6 ounces
+                  of water.
+                </div>
+                <br />
+                <br />
+                <div
+                  style={{
+                    fontWeight: "bold",
+                    color: "black",
+                    marginTop: "-25px",
+                  }}
+                >
+                  4.Pour and pause
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  Use hot water that’s just off the boil and fill the cone
+                  halfway to saturate the grounds. Pause for 10 seconds and let
+                  the coffee bloom. This allows the coffee to hydrate evenly and
+                  begin to develop flavour.
+                </div>
+                <br />
+                <br />
+                <div
+                  style={{
+                    fontWeight: "bold",
+                    color: "black",
+                    marginTop: "-25px",
+                  }}
+                >
+                  5. Complete the pour and enjoy
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  To make your pour-over more consistent, use a timer. It should
+                  take about 3 minutes to make a cup. <br />
+                  <em>
+                    TIP: To make your pour-over more consistent, use a timer. It
+                    should take about 3 minutes to make a cup.
+                  </em>
+                </div>
+              </p>
+            </div>
+            <hr />
+            <h3 style={{ fontSize: "15px", marginLeft: "5.4rem" }}>
+              Iced Pour-Over
+            </h3>
+            <div className="brewingInstructions-grid-layout">
+              <img
+                src={"/images/iced_pour_over.png"}
+                alt="iced pour over"
+                style={{ width: 50 }}
+              />
+              <p style={{ color: "grey", fontSize: "15px" }}>
+                Iced pour-over is a simple and approachable way to make rich,
+                full-flavoured iced coffee one pitcher at a time. <br />
+                <br />
+                <div style={{ fontWeight: "bold", color: "black" }}>
+                  1. Pre-moisten filter
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  Briefly rinse the paper filter with hot water and discard the
+                  rinse water. This will give your coffee the purest flavour
+                  possible.
+                </div>
+                <br />
+                <br />
+                <div
+                  style={{
+                    fontWeight: "bold",
+                    color: "black",
+                    marginTop: "-25px",
+                  }}
+                >
+                  2.Choose the right grind
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  For pour-over, use coffee ground for a paper cone. It’s a
+                  relatively fine grind that looks like granulated sugar
+                </div>
+                <br />
+                <br />
+                <div
+                  style={{
+                    fontWeight: "bold",
+                    color: "black",
+                    marginTop: "-25px",
+                  }}
+                >
+                  3.Measure
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  Iced pour-over is brewed at double strength and diluted with
+                  ice, so measure 4 tablespoons of coffee for every 6 ounces of
+                  hot water.
+                </div>
+                <br />
+                <br />
+                <div
+                  style={{
+                    fontWeight: "bold",
+                    color: "black",
+                    marginTop: "-25px",
+                  }}
+                >
+                  4.Pour and pause
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  Use hot water that’s just off the boil and fill the cone
+                  halfway to saturate the grounds. Pause for 10 seconds and let
+                  the coffee bloom. This lets it hydrate evenly and begin to
+                  develop flavour.
+                </div>
+                <br />
+                <br />
+                <div
+                  style={{
+                    fontWeight: "bold",
+                    color: "black",
+                    marginTop: "-25px",
+                  }}
+                >
+                  5.Complete the pour
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  Slowly add the rest of the water, pouring in small, steady
+                  circles to cover all the grounds.
+                </div>
+                <br />
+                <br />
+                <div
+                  style={{
+                    fontWeight: "bold",
+                    color: "black",
+                    marginTop: "-25px",
+                  }}
+                >
+                  6.Add ice
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  African coffees are popular for iced pour-over because of
+                  their superb juicy body, and tangy, sparkling citrus notes.
+                  <br />
+                  <em>
+                    TIP: African coffees are popular for iced pour-over because
+                    of their superb juicy body, and tangy, sparkling citrus
+                    notes.
+                  </em>
+                </div>
+              </p>
+            </div>
+            <hr />
+            <h3 style={{ fontSize: "15px", marginLeft: "5.4rem" }}>
+              Coffee Brewer
+            </h3>
+            <div className="brewingInstructions-grid-layout">
+              <img
+                src={"/images/coffee_brewer.png"}
+                alt="coffee brewer"
+                style={{ width: 50 }}
+              />
+              <p style={{ color: "grey", fontSize: "15px" }}>
+                Drip coffee is a convenient way to make great coffee. With the
+                right grind and pure water, you can brew a fantastic cup of
+                coffee in a coffee brewer. <br />
+                <br />
+                <div style={{ fontWeight: "bold", color: "black" }}>
+                  1. Choose the right grind
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  For a flat bottom filter, use a medium grind that resembles
+                  sea salt. Cone filters use a finer grind that resembles
+                  granulated sugar.
+                </div>
+                <br />
+                <br />
+                <div
+                  style={{
+                    fontWeight: "bold",
+                    color: "black",
+                    marginTop: "-25px",
+                  }}
+                >
+                  2.Measure
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  Use 2 tablespoons of freshly ground coffee for every 6 ounces
+                  of water.
+                </div>
+                <br />
+                <br />
+                <div
+                  style={{
+                    fontWeight: "bold",
+                    color: "black",
+                    marginTop: "-25px",
+                  }}
+                >
+                  3.Brew and enjoy
+                </div>
+                <br />
+                <div style={{ marginTop: "-20px" }}>
+                  <em>
+                    TIP: Brewed coffee is always best fresh, so make as much as
+                    you’ll enjoy in a sitting. Reheating coffee can dull the
+                    flavour.
+                  </em>
+                </div>
+              </p>
+            </div>
+            <hr />
           </section>
           <section style={{ margin: "2rem 2rem" }}>
             <Footer />
