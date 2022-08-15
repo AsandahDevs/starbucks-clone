@@ -84,7 +84,7 @@ const Coffees = () => {
               Order with Starbucks Delivers
             </Button>
           </section>
-          <section>
+          <section style={{ margin: "2rem 2rem" }}>
             <Footer />
           </section>
         </main>
