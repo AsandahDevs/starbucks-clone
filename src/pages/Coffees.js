@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/esm/Container";
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/esm/Button";
+import Footer from "../components/Footer";
 
 const Coffees = () => {
   return (
@@ -82,6 +83,9 @@ const Coffees = () => {
             >
               Order with Starbucks Delivers
             </Button>
+          </section>
+          <section>
+            <Footer />
           </section>
         </main>
         <aside className="backgroundImageForCoffeePage">
