@@ -69,7 +69,8 @@ svg {
 
 .backgroundImageForHomePage {
   background-image: url(/public/images/laughing_girl.jpg);
-  background-size: contain;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .backgroundTextForHomePage {
@@ -81,7 +82,7 @@ svg {
 
 .backgroundImageForCoffeePage {
   background-image: url(/public/images/A_coffee_machine_pouring_coffee_into_cups.png);
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
