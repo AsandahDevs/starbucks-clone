@@ -52,16 +52,24 @@ const Footer = () => {
       <br />
       <br />
       <p>
-        <Link to="#">Privacy policy</Link>
+        <Link to="#" style={{ color: "black" }}>
+          Privacy policy
+        </Link>
       </p>
       <p>
-        <Link to="#">Terms of Use</Link>
+        <Link to="#" style={{ color: "black" }}>
+          Terms of Use
+        </Link>
       </p>
       <p>
-        <Link to="#">Cookie Notice</Link>
+        <Link to="#" style={{ color: "black" }}>
+          Cookie Notice
+        </Link>
       </p>
       <p>
-        <Link to="#">Cookie policy</Link>
+        <Link to="#" style={{ color: "black" }}>
+          Cookie policy
+        </Link>
       </p>
     </>
   );
