@@ -130,3 +130,10 @@ div.coffee-grid-layout {
   grid-template-columns: auto auto;
   column-gap: 35px;
 }
+
+.backgroundImageForDeliversPage {
+  background-image: url("/public/images/starbucks_uber_eats_delivers.jfif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
