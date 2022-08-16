@@ -87,6 +87,7 @@ const Coffees = () => {
               style={{
                 fontWeight: "bold",
                 color: "green",
+                padding: "0rem 0.5rem",
               }}
             >
               Order with Starbucks Delivers
@@ -112,6 +113,7 @@ const Coffees = () => {
                       fontWeight: "bold",
                       color: "green",
                       marginTop: "10px",
+                      padding: "0rem 0.5rem",
                     }}
                   >
                     Medium Roasts
@@ -132,6 +134,7 @@ const Coffees = () => {
                       fontWeight: "bold",
                       color: "green",
                       marginTop: "10px",
+                      padding: "0rem 0.5rem",
                     }}
                   >
                     Medium Roasts
@@ -152,6 +155,7 @@ const Coffees = () => {
                       fontWeight: "bold",
                       color: "green",
                       marginTop: "10px",
+                      padding: "0rem 0.5rem",
                     }}
                   >
                     Dark Roasts
@@ -172,6 +176,7 @@ const Coffees = () => {
                       fontWeight: "bold",
                       color: "green",
                       marginTop: "10px",
+                      padding: "0rem 0.5rem",
                     }}
                   >
                     Dark Roasts
@@ -192,6 +197,7 @@ const Coffees = () => {
                       fontWeight: "bold",
                       color: "green",
                       marginTop: "10px",
+                      padding: "0rem 0.5rem",
                     }}
                   >
                     Dark Roasts
