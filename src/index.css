@@ -133,7 +133,7 @@ div.coffee-grid-layout {
 
 .backgroundImageForDeliversPage {
   background-image: url("/public/images/starbucks_uber_eats_delivers.jfif");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
