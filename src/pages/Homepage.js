@@ -18,7 +18,9 @@ const Homepage = () => {
               style={{ width: "100%" }}
             />
           </section>
-          <section style={{ margin: "2rem 2rem" }}>
+          <section
+            style={{ backgroundColor: "whitesmoke", padding: "0rem 1rem" }}
+          >
             <h1 style={{ fontSize: "30px" }}>
               Uplift the Everyday with Starbucks
             </h1>
@@ -38,12 +40,17 @@ const Homepage = () => {
               style={{
                 fontWeight: "bold",
                 color: "green",
+                padding: "0rem 0.5rem",
               }}
             >
               Order Now
             </Button>
+            <br />
+            <br />
           </section>
-          <section style={{ margin: "2rem 2rem" }}>
+          <section
+            style={{ backgroundColor: "whitesmoke", padding: "0rem 1rem" }}
+          >
             <h2 style={{ fontSize: "15px", fontWeight: "bold" }}>
               YOUR DAILY ROUTINE, THE STARBUCKS WAY
             </h2>
@@ -67,13 +74,13 @@ const Homepage = () => {
                   Toast Brioche with Chicken Schnitzel, finished with mayonnaise
                   and a hint of mustard, paired with a Cold Brew.
                 </p>
-
                 <Button
                   variant="outline-success"
                   size="sm"
                   style={{
                     fontWeight: "bold",
                     color: "green",
+                    padding: "0rem 0.5rem",
                   }}
                 >
                   Order Now
@@ -81,7 +88,9 @@ const Homepage = () => {
               </figcaption>
             </figure>
           </section>
-          <section style={{ margin: "2rem 2rem" }}>
+          <section
+            style={{ backgroundColor: "whitesmoke", padding: "0rem 1rem" }}
+          >
             <Row className="g-4">
               <Col md={6}>
                 <Cards
@@ -99,6 +108,7 @@ const Homepage = () => {
                   btnStyle={{
                     fontWeight: "bold",
                     color: "green",
+                    padding: "0rem 0.5rem",
                   }}
                 />
               </Col>
@@ -114,12 +124,13 @@ const Homepage = () => {
                   btnStyle={{
                     fontWeight: "bold",
                     color: "green",
+                    padding: "0rem 0.5rem",
                   }}
                 />
               </Col>
             </Row>
+            <br />
           </section>
-          <hr />
           <section>
             <Footer />
           </section>
@@ -170,6 +181,7 @@ const Homepage = () => {
                 color: "white",
                 borderColor: "white",
                 fontWeight: "bold",
+                padding: "0.3rem 1rem",
               }}
             >
               Find out more
