@@ -8,7 +8,9 @@ const Coffees = () => {
     <>
       <Container>
         <main>
-          <section style={{ margin: "0.5rem 2rem" }}>
+          <section
+            style={{ backgroundColor: "whitesmoke", padding: "0rem 1rem" }}
+          >
             <h1>Our Coffees</h1>
             <p style={{ color: "grey" }}>
               At Starbucks it always has been and will always be about quality.
@@ -24,9 +26,11 @@ const Coffees = () => {
               With so many options to choose from, it's difficult to find that
               perfect cup.
             </p>
+            <br />
           </section>
-          <br />
-          <section style={{ margin: "0.5rem 2rem" }}>
+          <section
+            style={{ backgroundColor: "whitesmoke", padding: "0rem 1rem" }}
+          >
             <h2 style={{ fontSize: "15px", fontWeight: "bold" }}>
               THE STARBUCKS ROAST
               <sup>
@@ -66,8 +70,12 @@ const Coffees = () => {
             <Link to="#" style={{ fontWeight: "bold", color: "green" }}>
               DARK ROASTS
             </Link>
+            <br />
+            <br />
           </section>
-          <section style={{ margin: "2rem 2rem" }}>
+          <section
+            style={{ backgroundColor: "whitesmoke", padding: "0rem 1rem" }}
+          >
             <h2 style={{ fontSize: "25px" }}>Starbucks at Home</h2>
             <p style={{ color: "grey" }}>
               Bring your favourites home so that you can always enjoy the
@@ -83,8 +91,12 @@ const Coffees = () => {
             >
               Order with Starbucks Delivers
             </Button>
+            <br />
+            <br />
           </section>
-          <section style={{ margin: "2rem 2rem" }}>
+          <section
+            style={{ backgroundColor: "whitesmoke", padding: "0rem 1rem" }}
+          >
             <div className="coffee-grid-layout">
               <figure>
                 <img
@@ -188,7 +200,9 @@ const Coffees = () => {
               </figure>
             </div>
           </section>
-          <section style={{ margin: "2rem 2rem" }}>
+          <section
+            style={{ backgroundColor: "whitesmoke", padding: "0rem 1rem" }}
+          >
             <h2>How to Brew</h2>
             <p>
               You might be surprised at how the different brewing methods we use
@@ -544,9 +558,8 @@ const Coffees = () => {
                 </div>
               </p>
             </div>
-            <hr />
           </section>
-          <section style={{ margin: "2rem 2rem" }}>
+          <section style={{ padding: "0rem 1rem" }}>
             <Footer />
           </section>
         </main>
