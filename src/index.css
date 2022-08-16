@@ -137,3 +137,10 @@ div.coffee-grid-layout {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.backgroundImageForRewardsPage {
+  background-image: url("/public/images/starbucks_rewards_hero_image.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
