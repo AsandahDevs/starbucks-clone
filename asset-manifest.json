@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/starbucks-clone/static/css/main.d6040d6c.css",
+    "main.js": "/starbucks-clone/static/js/main.dd582d7f.js",
+    "static/media/Starbucks_homepage_hero_image.png": "/starbucks-clone/static/media/Starbucks_homepage_hero_image.8e5f029a5184b70af369.png",
+    "static/media/A_coffee_machine_pouring_coffee_into_cups.png": "/starbucks-clone/static/media/A_coffee_machine_pouring_coffee_into_cups.6d6eaf9b57e52193f7eb.png",
+    "static/media/SBUX_rewards.png": "/starbucks-clone/static/media/SBUX_rewards.f0dd8fd791364b16a6d6.png",
+    "static/media/starbucks_uber_eats_delivers.jfif": "/starbucks-clone/static/media/starbucks_uber_eats_delivers.3f0ade3906f86a149625.jfif",
+    "index.html": "/starbucks-clone/index.html",
+    "main.d6040d6c.css.map": "/starbucks-clone/static/css/main.d6040d6c.css.map",
+    "main.dd582d7f.js.map": "/starbucks-clone/static/js/main.dd582d7f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6040d6c.css",
+    "static/js/main.dd582d7f.js"
+  ]
+}
