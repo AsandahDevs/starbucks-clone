@@ -11,7 +11,7 @@ const Navigation = () => {
     <>
       <Navbar bg="light" expand="md" className="mb-3">
         <Container>
-          <Navbar.Brand as={NavLink} to="/">
+          <Navbar.Brand as={NavLink} to="/starbucks-clone/">
             <img
               src="images/starbucks_logo.png"
               alt="starbucks_logo"
@@ -27,13 +27,13 @@ const Navigation = () => {
             <Offcanvas.Header closeButton></Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-start flex-grow-1 pe-3">
-                <Nav.Link as={NavLink} to="/coffees">
+                <Nav.Link as={NavLink} to="coffees">
                   Our Coffees
                 </Nav.Link>
-                <Nav.Link as={NavLink} to="/delivers">
+                <Nav.Link as={NavLink} to="delivers">
                   Delivers
                 </Nav.Link>
-                <Nav.Link as={NavLink} to="/rewards">
+                <Nav.Link as={NavLink} to="rewards">
                   Rewards
                 </Nav.Link>
                 <Nav.Link as={Link} to="#" className="ms-auto">
