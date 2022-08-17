@@ -1,5 +1,6 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import { memo } from "react";
 
 const Cards = (props) => {
   return (
@@ -21,4 +22,4 @@ const Cards = (props) => {
   );
 };
 
-export default Cards;
+export default memo(Cards);
