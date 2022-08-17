@@ -11,3 +11,7 @@ The main highlight of this project is the use of react.js for rendering user int
 * JavaScript
 * React.js
 * React router
+
+## Preview
+
+![asandahdevs github io_starbucks-clone_(Galaxy Tab S4) (2)](https://user-images.githubusercontent.com/89397749/185235800-0e8b384b-4d82-4975-9cf8-e51dde5769a9.png)
