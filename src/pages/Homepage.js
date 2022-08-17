@@ -174,7 +174,7 @@ const Homepage = () => {
               size="sm"
               style={{
                 display: "block",
-                marginLeft: "18rem",
+                marginLeft: "15rem",
                 marginTop: "2rem",
                 marginBottom: "3rem",
                 backgroundColor: "transparent",
