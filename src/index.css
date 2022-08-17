@@ -144,3 +144,9 @@ div.coffee-grid-layout {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.rewards-grid-layout {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 35px;
+}
