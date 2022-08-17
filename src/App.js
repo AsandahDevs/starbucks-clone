@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<SHARED_LAYOUT />}>
+        <Route path="starbucks-clone/" element={<SHARED_LAYOUT />}>
           <Route index element={<Homepage />} />
           <Route path="coffees" element={<Coffees />} />
           <Route path="delivers" element={<Delivers />} />
