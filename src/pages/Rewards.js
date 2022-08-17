@@ -1,12 +1,17 @@
 import Container from "react-bootstrap/esm/Container";
 import Button from "react-bootstrap/esm/Button";
+import Footer from "../components/Footer";
+
 const Rewards = () => {
   return (
     <>
       <Container>
         <main>
           <section
-            style={{ backgroundColor: "whitesmoke", padding: "0rem 1rem" }}
+            style={{
+              backgroundColor: "whitesmoke",
+              padding: "0rem 1rem",
+            }}
           >
             <h1>Sip your way to more rewards with Starbucks® Rewards</h1>
             <p style={{ color: "grey" }}>
@@ -86,7 +91,7 @@ const Rewards = () => {
             <h2 style={{ fontSize: "15px", fontWeight: "bold" }}>
               DOWNLOAD THE STARBUCKS REWARDS APP
             </h2>
-            <figure className="rewards-grid-layout">
+            <figure className="rewards-grid-layout2">
               <img
                 src={"/images/starbucks_tap_for_rewards.png"}
                 alt="starbucks_tap_for_rewards"
@@ -117,6 +122,7 @@ const Rewards = () => {
                 </Button>
               </figcaption>
             </figure>
+            <br />
           </section>
           <section style={{ padding: "0rem 1rem" }}>
             <h2
@@ -142,6 +148,84 @@ const Rewards = () => {
               useful stuff – all in the app. Download the app today to get
               started.
             </p>
+            <div style={{ display: "flex" }}>
+              <figure style={{ marginRight: "12px" }}>
+                <img
+                  src={"/images/create_an_account_sketch.png"}
+                  alt="create_an_account"
+                  style={{ width: "90px" }}
+                />
+                <figcaption
+                  style={{
+                    fontWeight: "normal",
+                    fontSize: "large",
+                    fontStyle: "italic",
+                  }}
+                >
+                  Create an account
+                </figcaption>
+              </figure>
+              <figure style={{ marginRight: "15px" }}>
+                <img
+                  src={"/images/add_money_into_account_sketch.png"}
+                  alt="add_money_into_account"
+                  style={{ width: "90px" }}
+                />
+                <figcaption
+                  style={{
+                    fontWeight: "normal",
+                    fontSize: "large",
+                    fontStyle: "italic",
+                  }}
+                >
+                  Add money and order
+                </figcaption>
+              </figure>
+              <figure>
+                <img
+                  src={"/images/starbucks_collect_stars_rewards.png"}
+                  alt="collect stars, get rewards"
+                  style={{ width: "90px" }}
+                />
+                <figcaption
+                  style={{
+                    fontWeight: "normal",
+                    fontSize: "large",
+                    fontStyle: "italic",
+                  }}
+                >
+                  Collect stars,get rewards
+                </figcaption>
+              </figure>
+            </div>
+          </section>
+          <br />
+          <section
+            style={{ padding: "1rem 1rem", backgroundColor: "whitesmoke" }}
+          >
+            <h2>Questions?</h2>
+            <p style={{ color: "grey", fontSize: "18px" }}>
+              We want to help in any way we can. You can ask your barista
+              anytime or send through your queries to any of the below
+              platforms...
+            </p>
+            <Button
+              variant="outline-success"
+              size="sm"
+              style={{
+                fontWeight: "bold",
+                color: "green",
+                marginTop: "10px",
+                padding: "2.5px 0.5rem",
+              }}
+            >
+              Find out more
+            </Button>
+            <br />
+            <br />
+          </section>
+          <section>
+            <Footer />
           </section>
         </main>
         <aside className="backgroundImageForRewardsPage">
