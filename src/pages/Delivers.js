@@ -13,7 +13,7 @@ const Delivers = () => {
         <main>
           <section style={{ backgroundColor: "whitesmoke" }}>
             <img
-              src={"/images/starbucks_deliver_image.png"}
+              src={"images/starbucks_deliver_image.png"}
               alt="starbucks delivers "
               style={{ width: "100%" }}
             />

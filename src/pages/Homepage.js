@@ -95,7 +95,7 @@ const Homepage = () => {
               <Col md={6}>
                 <Cards
                   src={
-                    "/images/the_original_starbucks_store_in_pike_place_market_in_seattle.jpg"
+                    "images/the_original_starbucks_store_in_pike_place_market_in_seattle.jpg"
                   }
                   alt={
                     "The original starbucks store in pike place market in seattle"
@@ -114,7 +114,7 @@ const Homepage = () => {
               </Col>
               <Col md={6}>
                 <Cards
-                  src={"/images/TEDDY_STARBUCKS-STORIES.png"}
+                  src={"images/TEDDY_STARBUCKS-STORIES.png"}
                   alt={"Two man sharing a celebration"}
                   imgStyle={{ height: "150px" }}
                   title={"Starbucks stories"}
