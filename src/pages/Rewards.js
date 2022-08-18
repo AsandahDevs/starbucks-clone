@@ -23,9 +23,9 @@ const Rewards = () => {
             <p>See your Stars add up and get more drinks</p>
             <figure className="rewards-grid-layout">
               <img
-                src={"images/starbucks_collect_stars_rewards.png"}
+                src={"images/starbucks_collect_stars_rewards.webp"}
                 alt="A cup with incoming stars"
-                style={{ width: "70px" }}
+                style={{ width: "70px", borderRadius: "50%" }}
               />
               <figcaption>
                 <h2 style={{ fontSize: "20px" }}>Collect Stars</h2>
@@ -39,7 +39,7 @@ const Rewards = () => {
             <hr style={{ border: "1.5px solid gray" }} />
             <figure className="rewards-grid-layout">
               <img
-                src={"images/starbucks_drink.jfif"}
+                src={"images/starbucks_drink.webp"}
                 alt="A starbucks drink"
                 style={{ width: "70px", borderRadius: "50%" }}
               />
@@ -54,7 +54,7 @@ const Rewards = () => {
             <hr style={{ border: "1.5px solid gray" }} />
             <figure className="rewards-grid-layout">
               <img
-                src={"images/starbucks_refill.jfif"}
+                src={"images/starbucks_refill.webp"}
                 alt="A cup refill"
                 style={{ width: "70px", height: "70px", borderRadius: "50%" }}
               />
@@ -69,7 +69,7 @@ const Rewards = () => {
             <hr style={{ border: "1.5px solid gray" }} />
             <figure className="rewards-grid-layout">
               <img
-                src={"images/starbucks_free_birthday_drink.jfif"}
+                src={"images/starbucks_free_birthday_drink.webp"}
                 alt="A starbucks milkshake drink"
                 style={{ width: "70px", borderRadius: "50%" }}
               />
@@ -93,7 +93,7 @@ const Rewards = () => {
             </h2>
             <figure className="rewards-grid-layout2">
               <img
-                src={"images/starbucks_tap_for_rewards.png"}
+                src={"images/starbucks_tap_for_rewards.webp"}
                 alt="starbucks_tap_for_rewards"
                 style={{ width: "300px" }}
               />
@@ -151,7 +151,7 @@ const Rewards = () => {
             <div style={{ display: "flex" }}>
               <figure style={{ marginRight: "12px" }}>
                 <img
-                  src={"images/create_an_account_sketch.png"}
+                  src={"images/create_an_account_sketch.svg"}
                   alt="create_an_account"
                   style={{ width: "90px" }}
                 />
@@ -167,7 +167,7 @@ const Rewards = () => {
               </figure>
               <figure style={{ marginRight: "15px" }}>
                 <img
-                  src={"images/add_money_into_account_sketch.png"}
+                  src={"images/add_money_into_account_sketch.svg"}
                   alt="add_money_into_account"
                   style={{ width: "90px" }}
                 />
@@ -183,7 +183,7 @@ const Rewards = () => {
               </figure>
               <figure>
                 <img
-                  src={"images/starbucks_collect_stars_rewards.png"}
+                  src={"images/starbucks_collect_stars_rewards.webp"}
                   alt="collect stars, get rewards"
                   style={{ width: "90px" }}
                 />
