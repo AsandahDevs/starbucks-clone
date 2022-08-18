@@ -58,6 +58,7 @@ const Homepage = () => {
               <img
                 src={"images/arial_view_of_starbucks_servings.webp"}
                 alt="an arial_view_of_starbucks_servings"
+                loading="lazy"
                 style={{ width: "100%", height: "250px" }}
               />
               <figcaption>
@@ -100,6 +101,7 @@ const Homepage = () => {
                   alt={
                     "The original starbucks store in pike place market in seattle"
                   }
+                  loading="lazy"
                   imgStyle={{ width: "100%", height: "150px" }}
                   title={"About us"}
                   text={"Find out more about our company and heritage."}
@@ -116,6 +118,7 @@ const Homepage = () => {
                 <Cards
                   src={"images/TEDDY_STARBUCKS-STORIES.webp"}
                   alt={"Two man sharing a celebration"}
+                  loading="lazy"
                   imgStyle={{ width: "100%", height: "150px" }}
                   title={"Starbucks stories"}
                   text={"Keep up to date with our latest stories and news."}

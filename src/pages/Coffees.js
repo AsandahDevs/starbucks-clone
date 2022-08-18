@@ -103,6 +103,7 @@ const Coffees = () => {
                 <img
                   src={"images/pike_place_coffee.webp"}
                   alt="pike_place_coffee"
+                  loading="lazy"
                 />
                 <figcaption style={{ fontWeight: "bold" }}>
                   Pike Place <br />
@@ -124,6 +125,7 @@ const Coffees = () => {
                 <img
                   src={"images/house_blend_coffee.webp"}
                   alt="house_blend_coffee "
+                  loading="lazy"
                 />
                 <figcaption style={{ fontWeight: "bold" }}>
                   House Blend <br />
@@ -145,6 +147,7 @@ const Coffees = () => {
                 <img
                   src={"images/cafe_verona_coffee.webp"}
                   alt="cafe_verona_coffee "
+                  loading="lazy"
                 />
                 <figcaption style={{ fontWeight: "bold" }}>
                   Cafe Verona <br />
@@ -166,6 +169,7 @@ const Coffees = () => {
                 <img
                   src={"images/expresso_roast.webp"}
                   alt="expresso_roast_coffee "
+                  loading="lazy"
                 />
                 <figcaption style={{ fontWeight: "bold" }}>
                   Expresso Roast <br />
@@ -187,6 +191,7 @@ const Coffees = () => {
                 <img
                   src={"images/decaf_expresso-roast.webp"}
                   alt="decaf_expresso_coffee "
+                  loading="lazy"
                 />
                 <figcaption style={{ fontWeight: "bold" }}>
                   Decaf Expresso Roasts <br />

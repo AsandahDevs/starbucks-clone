@@ -59,6 +59,7 @@ const Delivers = () => {
                   src={"images/uber_eats_logo.webp"}
                   alt="uber_eats_logo"
                   imgStyle={{ height: "188px" }}
+                  loading="lazy"
                   title="
 Starbucks® Delivers with Uber Eats"
                   text="Get your favourites delivered straight to your door with Uber Eats!"
@@ -76,6 +77,7 @@ Starbucks® Delivers with Uber Eats"
                   src={"images/mr_d_logo.webp"}
                   alt="mr_d_logo"
                   imgStyle={{ height: "185px" }}
+                  loading="lazy"
                   title="Starbucks® Delivers with Mr Delivery"
                   text="Get your favourites delivered straight to your door with Mr D!"
                   textStyle={{ color: "grey" }}
@@ -94,6 +96,7 @@ Starbucks® Delivers with Uber Eats"
             <img
               src={"images/arial_view_of_starbucks_servings.webp"}
               alt="arial_view_of_starbucks_servings"
+              loading="lazy"
               style={{ width: "100%", height: "300px", padding: "0rem 1rem" }}
             />
             <br />

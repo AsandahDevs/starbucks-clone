@@ -25,6 +25,7 @@ const Rewards = () => {
               <img
                 src={"images/starbucks_collect_stars_rewards.webp"}
                 alt="A cup with incoming stars"
+                loading="lazy"
                 style={{ width: "70px", borderRadius: "50%" }}
               />
               <figcaption>
@@ -41,6 +42,7 @@ const Rewards = () => {
               <img
                 src={"images/starbucks_drink.webp"}
                 alt="A starbucks drink"
+                loading="lazy"
                 style={{ width: "70px", borderRadius: "50%" }}
               />
               <figcaption>
@@ -56,6 +58,7 @@ const Rewards = () => {
               <img
                 src={"images/starbucks_refill.webp"}
                 alt="A cup refill"
+                loading="lazy"
                 style={{ width: "70px", height: "70px", borderRadius: "50%" }}
               />
               <figcaption>
@@ -71,6 +74,7 @@ const Rewards = () => {
               <img
                 src={"images/starbucks_free_birthday_drink.webp"}
                 alt="A starbucks milkshake drink"
+                loading="lazy"
                 style={{ width: "70px", borderRadius: "50%" }}
               />
               <figcaption>
@@ -95,6 +99,7 @@ const Rewards = () => {
               <img
                 src={"images/starbucks_tap_for_rewards.webp"}
                 alt="starbucks_tap_for_rewards"
+                loading="lazy"
                 style={{ width: "300px" }}
               />
               <figcaption>
@@ -153,6 +158,7 @@ const Rewards = () => {
                 <img
                   src={"images/create_an_account_sketch.svg"}
                   alt="create_an_account"
+                  loading="lazy"
                   style={{ width: "90px" }}
                 />
                 <figcaption
@@ -169,6 +175,7 @@ const Rewards = () => {
                 <img
                   src={"images/add_money_into_account_sketch.svg"}
                   alt="add_money_into_account"
+                  loading="lazy"
                   style={{ width: "90px" }}
                 />
                 <figcaption
@@ -185,6 +192,7 @@ const Rewards = () => {
                 <img
                   src={"images/starbucks_collect_stars_rewards.webp"}
                   alt="collect stars, get rewards"
+                  loading="lazy"
                   style={{ width: "90px" }}
                 />
                 <figcaption
