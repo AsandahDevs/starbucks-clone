@@ -68,7 +68,7 @@ svg {
 }
 
 .backgroundImageForHomePage {
-  background-image: url(/public/images/Starbucks_homepage_hero_image.png);
+  background-image: url("/public/images/Starbucks_homepage_hero_image.webp");
   background-size: 100vmax 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -81,7 +81,7 @@ svg {
 }
 
 .backgroundImageForCoffeePage {
-  background-image: url(/public/images/A_coffee_machine_pouring_coffee_into_cups.png);
+  background-image: url("/public/images/A_coffee_machine_pouring_coffee_into_cups.webp");
   background-size: 100vmin 100vmax;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -132,14 +132,14 @@ div.coffee-grid-layout {
 }
 
 .backgroundImageForDeliversPage {
-  background-image: url("/public/images/starbucks_uber_eats_delivers.jfif");
+  background-image: url("/public/images/starbucks_uber_eats_delivers.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .backgroundImageForRewardsPage {
-  background-image: url("/public/images/SBUX_rewards.png");
+  background-image: url("/public/images/SBUX_rewards.webp");
   background-size: 100vmin 100vmax;
   background-repeat: no-repeat;
   background-attachment: fixed;
