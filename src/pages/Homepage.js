@@ -100,7 +100,7 @@ const Homepage = () => {
                   alt={
                     "The original starbucks store in pike place market in seattle"
                   }
-                  imgStyle={{ height: "150px" }}
+                  imgStyle={{ width: "100%", height: "150px" }}
                   title={"About us"}
                   text={"Find out more about our company and heritage."}
                   textStyle={{ color: "grey" }}
@@ -116,7 +116,7 @@ const Homepage = () => {
                 <Cards
                   src={"images/TEDDY_STARBUCKS-STORIES.webp"}
                   alt={"Two man sharing a celebration"}
-                  imgStyle={{ height: "150px" }}
+                  imgStyle={{ width: "100%", height: "150px" }}
                   title={"Starbucks stories"}
                   text={"Keep up to date with our latest stories and news."}
                   textStyle={{ color: "grey" }}
