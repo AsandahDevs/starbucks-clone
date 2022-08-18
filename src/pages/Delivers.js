@@ -13,7 +13,7 @@ const Delivers = () => {
         <main>
           <section style={{ backgroundColor: "whitesmoke" }}>
             <img
-              src={"images/starbucks_deliver_image.png"}
+              src={"images/starbucks_deliver_image.webp"}
               alt="starbucks delivers "
               style={{ width: "100%" }}
             />
@@ -56,7 +56,7 @@ const Delivers = () => {
             <Row className="g-4" style={{ padding: "0rem 1rem" }}>
               <Col md={6}>
                 <Cards
-                  src={"images/uber_eats_logo.png"}
+                  src={"images/uber_eats_logo.webp"}
                   alt="uber_eats_logo"
                   imgStyle={{ height: "188px" }}
                   title="
@@ -73,7 +73,7 @@ Starbucks® Delivers with Uber Eats"
               </Col>
               <Col md={6}>
                 <Cards
-                  src={"images/mr_d_logo.png"}
+                  src={"images/mr_d_logo.webp"}
                   alt="mr_d_logo"
                   imgStyle={{ height: "185px" }}
                   title="Starbucks® Delivers with Mr Delivery"
@@ -92,7 +92,7 @@ Starbucks® Delivers with Uber Eats"
           </section>
           <section style={{ backgroundColor: "whitesmoke" }}>
             <img
-              src={"images/arial_view_of_starbucks_servings.jfif"}
+              src={"images/arial_view_of_starbucks_servings.webp"}
               alt="arial_view_of_starbucks_servings"
               style={{ width: "100%", height: "300px", padding: "0rem 1rem" }}
             />
