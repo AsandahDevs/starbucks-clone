@@ -15,7 +15,7 @@ const Homepage = () => {
             <img
               src={"images/dark_cocoa_with_orange_latte.webp"}
               alt="dark_cocoa_with_orange_latte"
-              style={{ width: "100%" }}
+              style={{ width: "100%", height: "250px" }}
             />
           </section>
           <section
@@ -58,7 +58,7 @@ const Homepage = () => {
               <img
                 src={"images/arial_view_of_starbucks_servings.webp"}
                 alt="an arial_view_of_starbucks_servings"
-                style={{ height: "250px" }}
+                style={{ width: "100%", height: "250px" }}
               />
               <figcaption>
                 <h3 style={{ fontSize: "20px", fontWeight: "bold" }}>
