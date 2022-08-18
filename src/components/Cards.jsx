@@ -9,6 +9,7 @@ const Cards = (props) => {
         variant="top"
         src={props.src}
         alt={props.alt}
+        loading={props.loading}
         style={props.imgStyle}
       />
       <Card.Body>
