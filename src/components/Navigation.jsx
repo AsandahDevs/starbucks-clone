@@ -13,7 +13,7 @@ const Navigation = () => {
         <Container>
           <Navbar.Brand as={NavLink} to="/starbucks-clone/">
             <img
-              src="images/starbucks_logo.png"
+              src="images/starbucks_logo.webp"
               alt="starbucks_logo"
               style={{ height: "60px", borderRadius: "50%" }}
             />
