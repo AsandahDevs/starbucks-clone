@@ -13,7 +13,7 @@ const Homepage = () => {
         <main>
           <section>
             <img
-              src={"images/dark_cocoa_with_orange_latte.jfif"}
+              src={"images/dark_cocoa_with_orange_latte.webp"}
               alt="dark_cocoa_with_orange_latte"
               style={{ width: "100%" }}
             />
@@ -56,7 +56,7 @@ const Homepage = () => {
             </h2>
             <figure className="grid-layout">
               <img
-                src={"images/arial_view_of_starbucks_servings.jfif"}
+                src={"images/arial_view_of_starbucks_servings.webp"}
                 alt="an arial_view_of_starbucks_servings"
                 style={{ height: "250px" }}
               />
@@ -95,7 +95,7 @@ const Homepage = () => {
               <Col md={6}>
                 <Cards
                   src={
-                    "images/the_original_starbucks_store_in_pike_place_market_in_seattle.jpg"
+                    "images/the_original_starbucks_store_in_pike_place_market_in_seattle.webp"
                   }
                   alt={
                     "The original starbucks store in pike place market in seattle"
@@ -114,7 +114,7 @@ const Homepage = () => {
               </Col>
               <Col md={6}>
                 <Cards
-                  src={"images/TEDDY_STARBUCKS-STORIES.png"}
+                  src={"images/TEDDY_STARBUCKS-STORIES.webp"}
                   alt={"Two man sharing a celebration"}
                   imgStyle={{ height: "150px" }}
                   title={"Starbucks stories"}
@@ -142,7 +142,7 @@ const Homepage = () => {
           >
             eBucks |{" "}
             <img
-              src={"images/starbucks_logo.png"}
+              src={"images/starbucks_logo.webp"}
               alt="starbucks_logo"
               style={{ height: "55px", borderRadius: "50%" }}
             />
@@ -174,7 +174,7 @@ const Homepage = () => {
               size="sm"
               style={{
                 display: "block",
-                marginLeft: "15rem",
+                marginLeft: "4rem",
                 marginTop: "2rem",
                 marginBottom: "3rem",
                 backgroundColor: "transparent",
