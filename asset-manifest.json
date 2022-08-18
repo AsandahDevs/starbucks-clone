@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/starbucks-clone/static/css/main.d6040d6c.css",
-    "main.js": "/starbucks-clone/static/js/main.f5d2e9aa.js",
-    "static/media/Starbucks_homepage_hero_image.png": "/starbucks-clone/static/media/Starbucks_homepage_hero_image.8e5f029a5184b70af369.png",
-    "static/media/A_coffee_machine_pouring_coffee_into_cups.png": "/starbucks-clone/static/media/A_coffee_machine_pouring_coffee_into_cups.6d6eaf9b57e52193f7eb.png",
-    "static/media/SBUX_rewards.png": "/starbucks-clone/static/media/SBUX_rewards.f0dd8fd791364b16a6d6.png",
-    "static/media/starbucks_uber_eats_delivers.jfif": "/starbucks-clone/static/media/starbucks_uber_eats_delivers.3f0ade3906f86a149625.jfif",
+    "main.css": "/starbucks-clone/static/css/main.fb079eee.css",
+    "main.js": "/starbucks-clone/static/js/main.4fcc476e.js",
+    "static/media/Starbucks_homepage_hero_image.webp": "/starbucks-clone/static/media/Starbucks_homepage_hero_image.fe1186fd0466071625b2.webp",
+    "static/media/A_coffee_machine_pouring_coffee_into_cups.webp": "/starbucks-clone/static/media/A_coffee_machine_pouring_coffee_into_cups.408076d497b0b14536ee.webp",
+    "static/media/starbucks_uber_eats_delivers.webp": "/starbucks-clone/static/media/starbucks_uber_eats_delivers.9f40b3ead9d9e50a08c5.webp",
+    "static/media/SBUX_rewards.webp": "/starbucks-clone/static/media/SBUX_rewards.f8603a6393b6aa549d65.webp",
     "index.html": "/starbucks-clone/index.html",
-    "main.d6040d6c.css.map": "/starbucks-clone/static/css/main.d6040d6c.css.map",
-    "main.f5d2e9aa.js.map": "/starbucks-clone/static/js/main.f5d2e9aa.js.map"
+    "main.fb079eee.css.map": "/starbucks-clone/static/css/main.fb079eee.css.map",
+    "main.4fcc476e.js.map": "/starbucks-clone/static/js/main.4fcc476e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6040d6c.css",
-    "static/js/main.f5d2e9aa.js"
+    "static/css/main.fb079eee.css",
+    "static/js/main.4fcc476e.js"
   ]
 }
