@@ -101,7 +101,7 @@ const Coffees = () => {
             <div className="coffee-grid-layout">
               <figure>
                 <img
-                  src={"images/pike_place_coffee.jfif"}
+                  src={"images/pike_place_coffee.webp"}
                   alt="pike_place_coffee"
                 />
                 <figcaption style={{ fontWeight: "bold" }}>
@@ -122,7 +122,7 @@ const Coffees = () => {
               </figure>
               <figure>
                 <img
-                  src={"images/house_blend_coffee.jfif"}
+                  src={"images/house_blend_coffee.webp"}
                   alt="house_blend_coffee "
                 />
                 <figcaption style={{ fontWeight: "bold" }}>
@@ -143,7 +143,7 @@ const Coffees = () => {
               </figure>
               <figure>
                 <img
-                  src={"images/cafe_verona_coffee.jfif"}
+                  src={"images/cafe_verona_coffee.webp"}
                   alt="cafe_verona_coffee "
                 />
                 <figcaption style={{ fontWeight: "bold" }}>
@@ -164,7 +164,7 @@ const Coffees = () => {
               </figure>
               <figure>
                 <img
-                  src={"images/expresso_roast.jfif"}
+                  src={"images/expresso_roast.webp"}
                   alt="expresso_roast_coffee "
                 />
                 <figcaption style={{ fontWeight: "bold" }}>
@@ -185,7 +185,7 @@ const Coffees = () => {
               </figure>
               <figure>
                 <img
-                  src={"images/decaf_expresso-roast.jfif"}
+                  src={"images/decaf_expresso-roast.webp"}
                   alt="decaf_expresso_coffee "
                 />
                 <figcaption style={{ fontWeight: "bold" }}>
@@ -221,7 +221,7 @@ const Coffees = () => {
             </h3>
             <figure className="brewingInstructions-grid-layout">
               <img
-                src={"images/coffee_press_icon.jfif"}
+                src={"images/coffee_press_icon.svg"}
                 alt="coffee presser"
                 style={{ width: 50 }}
               />
@@ -297,7 +297,7 @@ const Coffees = () => {
             </h3>
             <figure className="brewingInstructions-grid-layout">
               <img
-                src={"images/pour_over_coffee_maker.webp"}
+                src={"images/pour_over_coffee_maker.svg"}
                 alt="pour over coffee maker"
                 style={{ width: 50 }}
               />
@@ -395,7 +395,7 @@ const Coffees = () => {
             </h3>
             <figure className="brewingInstructions-grid-layout">
               <img
-                src={"images/iced_pour_over.png"}
+                src={"images/iced_pour_over.svg"}
                 alt="iced pour over"
                 style={{ width: 50 }}
               />
@@ -509,7 +509,7 @@ const Coffees = () => {
             </h3>
             <figure className="brewingInstructions-grid-layout">
               <img
-                src={"images/coffee_brewer.png"}
+                src={"images/coffee_brewer.svg"}
                 alt="coffee brewer"
                 style={{ width: 50 }}
               />
