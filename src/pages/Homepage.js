@@ -15,7 +15,7 @@ const Homepage = () => {
             <img
               src={"images/dark_cocoa_with_orange_latte.webp"}
               alt="dark_cocoa_with_orange_latte"
-              style={{ width: "100%", height: "250px" }}
+              style={{ width: "100%", height: "200px" }}
             />
           </section>
           <section
