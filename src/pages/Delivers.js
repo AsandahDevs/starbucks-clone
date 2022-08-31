@@ -97,7 +97,7 @@ Starbucks® Delivers with Uber Eats"
               src={"images/arial_view_of_starbucks_servings.webp"}
               alt="arial_view_of_starbucks_servings"
               loading="lazy"
-              style={{ width: "100%", height: "300px", padding: "0rem 1rem" }}
+              style={{ width: "100%", height: "350px", padding: "0rem 1rem" }}
             />
             <br />
             <br />
