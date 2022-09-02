@@ -1,8 +1,24 @@
 import Container from "react-bootstrap/esm/Container";
 import Button from "react-bootstrap/esm/Button";
 import Footer from "../components/Footer";
+import { useState } from "react";
+import CreateAcccount from "../components/CreateAccount";
+import AddMoneyAndOrder from "../components/AddMoneyAndOrder";
+import RewardsCollection from "../components/RewardCollection";
 
 const Rewards = () => {
+  const [account_figure, setAccount_figure] = useState(false);
+  const updateFigureInfo = () => {
+    setAccount_figure((prevData) => !prevData);
+  };
+  const [money_and_order_figure, setMoney_and_order_figure] = useState(false);
+  const updateFigureInfo2 = () => {
+    setMoney_and_order_figure((prevData) => !prevData);
+  };
+  const [rewards_figure, setRewards_figure] = useState(false);
+  const updateFigureInfo3 = () => {
+    setRewards_figure((prevData) => !prevData);
+  };
   return (
     <>
       <Container>
@@ -159,7 +175,8 @@ const Rewards = () => {
                   src={"images/create_an_account_sketch.svg"}
                   alt="create_an_account"
                   loading="lazy"
-                  style={{ width: "90px" }}
+                  style={{ width: "90px", cursor: "pointer" }}
+                  onClick={updateFigureInfo}
                 />
                 <figcaption
                   style={{
@@ -176,7 +193,8 @@ const Rewards = () => {
                   src={"images/add_money_into_account_sketch.svg"}
                   alt="add_money_into_account"
                   loading="lazy"
-                  style={{ width: "90px" }}
+                  style={{ width: "90px", cursor: "pointer" }}
+                  onClick={updateFigureInfo2}
                 />
                 <figcaption
                   style={{
@@ -193,7 +211,8 @@ const Rewards = () => {
                   src={"images/starbucks_collect_stars_rewards.webp"}
                   alt="collect stars, get rewards"
                   loading="lazy"
-                  style={{ width: "90px" }}
+                  style={{ width: "90px", cursor: "pointer" }}
+                  onClick={updateFigureInfo3}
                 />
                 <figcaption
                   style={{
@@ -206,6 +225,34 @@ const Rewards = () => {
                 </figcaption>
               </figure>
             </div>
+          </section>
+          <br />
+          <section style={{ padding: "1rem 1rem", backgroundColor: "white" }}>
+            {account_figure ? (
+              <CreateAcccount
+                img={"images/create_an_account_sketch.svg"}
+                alt="Create an account svg"
+              />
+            ) : (
+              ""
+            )}
+            {money_and_order_figure ? (
+              <AddMoneyAndOrder
+                img={"images/add_money_into_account_sketch.svg"}
+                alt="Add money into account svg"
+              />
+            ) : (
+              ""
+            )}
+            {rewards_figure ? (
+              <RewardsCollection
+                img={"images/starbucks_collect_stars_rewards.webp"}
+                alt="collect stars reward"
+                style={{ height: "250px", width: "250px" }}
+              />
+            ) : (
+              ""
+            )}
           </section>
           <br />
           <section
