@@ -23,7 +23,7 @@ a.nav-link.active {
   color: green !important;
 }
 
-div.container {
+div.container-fluid {
   /* height: 100vh; */
   display: grid;
   grid-template-areas:
@@ -87,7 +87,7 @@ svg {
 }
 
 @media (max-width: 768px) {
-  div.container {
+  div.container-fluid {
     display: grid;
     grid-template-areas:
       "aside aside aside"
