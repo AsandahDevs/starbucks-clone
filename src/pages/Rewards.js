@@ -21,7 +21,7 @@ const Rewards = () => {
   };
   return (
     <>
-      <Container>
+      <Container fluid>
         <main>
           <section
             style={{

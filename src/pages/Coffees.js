@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 const Coffees = () => {
   return (
     <>
-      <Container>
+      <Container fluid>
         <main>
           <section
             style={{ backgroundColor: "whitesmoke", padding: "0rem 1rem" }}

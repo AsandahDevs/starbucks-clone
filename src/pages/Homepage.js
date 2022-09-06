@@ -9,7 +9,7 @@ import Cards from "../components/Cards";
 const Homepage = () => {
   return (
     <>
-      <Container>
+      <Container fluid>
         <main>
           <section>
             <img

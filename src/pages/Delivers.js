@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 const Delivers = () => {
   return (
     <>
-      <Container>
+      <Container fluid>
         <main>
           <section style={{ backgroundColor: "whitesmoke" }}>
             <img
