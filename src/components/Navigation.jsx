@@ -10,7 +10,7 @@ const Navigation = () => {
   return (
     <>
       <Navbar bg="light" expand="md" className="mb-3">
-        <Container>
+        <Container fluid>
           <Navbar.Brand as={NavLink} to="/starbucks-clone/">
             <img
               src="images/starbucks_logo.webp"
