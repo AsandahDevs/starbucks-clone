@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/starbucks-clone/static/css/main.739eb6bd.css",
+    "main.css": "/starbucks-clone/static/css/main.175cfdce.css",
     "main.js": "/starbucks-clone/static/js/main.49e33fd8.js",
     "static/media/Starbucks_homepage_hero_image.webp": "/starbucks-clone/static/media/Starbucks_homepage_hero_image.fe1186fd0466071625b2.webp",
     "static/media/A_coffee_machine_pouring_coffee_into_cups.webp": "/starbucks-clone/static/media/A_coffee_machine_pouring_coffee_into_cups.408076d497b0b14536ee.webp",
     "static/media/starbucks_uber_eats_delivers.webp": "/starbucks-clone/static/media/starbucks_uber_eats_delivers.9f40b3ead9d9e50a08c5.webp",
     "static/media/SBUX_rewards.webp": "/starbucks-clone/static/media/SBUX_rewards.f8603a6393b6aa549d65.webp",
     "index.html": "/starbucks-clone/index.html",
-    "main.739eb6bd.css.map": "/starbucks-clone/static/css/main.739eb6bd.css.map",
+    "main.175cfdce.css.map": "/starbucks-clone/static/css/main.175cfdce.css.map",
     "main.49e33fd8.js.map": "/starbucks-clone/static/js/main.49e33fd8.js.map"
   },
   "entrypoints": [
-    "static/css/main.739eb6bd.css",
+    "static/css/main.175cfdce.css",
     "static/js/main.49e33fd8.js"
   ]
 }
