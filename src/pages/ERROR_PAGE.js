@@ -8,7 +8,7 @@ const ERROR_PAGE = () => {
         <strong>404</strong>
       </h1>
       <p>Page not found !</p>
-      <Link to="/">
+      <Link to="/starbucks-clone/">
         <Button variant="outline-success" style={{ padding: "0rem 1rem" }}>
           Back to homepage
         </Button>
